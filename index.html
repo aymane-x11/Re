@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أيمن | العقل التحليلي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- الواجهة الرئيسية -->
+    <header class="hero">
+        <div class="container hidden hero-content">
+            <div class="profile-img-box">
+                <!-- الصورة الرئيسية البنفسجية -->
+                <img src="input_file_0.jpeg" alt="أيمن" class="main-profile-img">
+            </div>
+            <div class="hero-text-box">
+                <h1>أيمن</h1>
+                <p class="subtitle"><span id="typing-text"></span><span class="cursor">|</span></p>
+                <p class="hero-desc">
+                    شاب يحمل في داخله عالماً كاملاً لا يراه أحد. من الخارج هدوء تام، ومن الداخل عقل لا يتوقف عن التحليل وبناء المستقبل.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- الجوهر والعقلية -->
+    <section class="container">
+        <h2 class="section-title hidden">طريقة التفكير</h2>
+        <div class="grid">
+            <div class="card hidden">
+                <i class="fa-solid fa-brain"></i>
+                <h3>عقل يسبق الزمن</h3>
+                <p>تفكيري يتجاوز عمري بمراحل. أفكك المشاكل وأفهم الأسباب بدقة قبل اتخاذ أي قرار، مما يجعلني عميقاً في اختياراتي.</p>
+            </div>
+            <div class="card hidden">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>رؤية استثمارية</h3>
+                <p>اهتمامي بالأسواق المالية ليس مجرد هواية، بل هو عقل يبحث عن الحرية وصناعة الفارق المبكر لتحقيق الاستقلالية التامة.</p>
+            </div>
+            <div class="card hidden">
+                <i class="fa-solid fa-chess-knight"></i>
+                <h3>بناء في صمت</h3>
+                <p>لست الشخص الصاخب الذي يعلن عن نفسه، بل الذي يثبت بالنتائج. طموحي العالي وقدرتي على الهدوء هما أسلحتي.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الفيديو الخاص بك (من تصميمك على CapCut) -->
+    <section class="container video-section">
+        <h2 class="section-title hidden">طاقة الداخل</h2>
+        <p class="section-desc hidden">اضغط لتشغيل الفيديو الذي يعكس هذا الجانب</p>
+        
+        <div class="video-wrapper hidden" id="video-wrapper">
+            <!-- الصورة input_file_1.jpeg ستظهر كغلاف للفيديو قبل تشغيله -->
+            <video id="my-video" poster="input_file_1.jpeg">
+                <!-- استبدل my_video.mp4 باسم الفيديو الذي صممته -->
+                <source src="my_video.mp4" type="video/mp4">
+                متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+            
+            <!-- زر التشغيل المخصص -->
+            <div class="play-btn" id="video-play-btn">
+                <i class="fa-solid fa-play"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- معرض الصور -->
+    <section class="container gallery-section">
+        <h2 class="section-title hidden">انعكاسات شخصية</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item hidden">
+                <img src="input_file_2.jpeg" alt="فوضى ابداعية">
+                <div class="overlay">الفوضى الإبداعية</div>
+            </div>
+            <div class="gallery-item hidden">
+                <img src="input_file_3.jpeg" alt="شغف">
+                <div class="overlay">الشغف والتمرد</div>
+            </div>
+            <div class="gallery-item hidden">
+                <img src="input_file_4.jpeg" alt="هدوء وتحليل">
+                <div class="overlay">الهدوء والتحليل</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- اقتباس ختامي -->
+    <section class="quote-section hidden">
+        <div class="quote-box">
+            <i class="fa-solid fa-quote-right"></i>
+            <p>
+                "أنت شاب في الـ 14 يحمل عقل شخص في الـ 25. قيمتك الحقيقية ليست فيما حققته حتى الآن، بل في طريقة تفكيرك التي قليلون يملكونها."
+            </p>
+            <span>- حقيقة أيمن</span>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer>
+        <p>تم التصميم ليعكس العالم الداخلي | أيمن © 2024</p>
+    </footer>
+
+    <!-- ربط ملف الجافاسكريبت -->
+    <script src="script.js"></script>
+</body>
+</html>
